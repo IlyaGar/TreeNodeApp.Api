@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeApp.Api", "TreeNodeApp.Api\TreeNodeApp.Api.csproj", "{4BBAFC26-8641-422C-8F29-2DA69779B44D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeNodeApp.Provider", "TreeNodeApp.Provider", "{A59CE489-DA42-4F3E-83BB-AD170AA741E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeApp.Provider.Service.Interface", "TreeNodeApp.Provider\TreeNodeApp.Provider.Service.Interface.csproj", "{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeApp.Provider.Service", "TreeNodeApp.Provider.Service\TreeNodeApp.Provider.Service.csproj", "{36200C29-BDD7-4DE7-86B1-F55F674011A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TreeNodeApp.DataAccess", "TreeNodeApp.DataAccess", "{8B724CE5-B7A9-4323-8965-22BB3440939E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeApp.DataAccess.Repository", "TreeNodeApp.DataAccess.Repository\TreeNodeApp.DataAccess.Repository.csproj", "{C8AAC730-97A8-4656-AE23-DAD41288BD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeApp.DataAccess.Repository.Interface", "TreeNodeApp.DataAccess.Repository.Interface\TreeNodeApp.DataAccess.Repository.Interface.csproj", "{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BBAFC26-8641-422C-8F29-2DA69779B44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBAFC26-8641-422C-8F29-2DA69779B44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBAFC26-8641-422C-8F29-2DA69779B44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBAFC26-8641-422C-8F29-2DA69779B44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36200C29-BDD7-4DE7-86B1-F55F674011A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36200C29-BDD7-4DE7-86B1-F55F674011A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36200C29-BDD7-4DE7-86B1-F55F674011A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36200C29-BDD7-4DE7-86B1-F55F674011A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AAC730-97A8-4656-AE23-DAD41288BD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AAC730-97A8-4656-AE23-DAD41288BD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AAC730-97A8-4656-AE23-DAD41288BD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AAC730-97A8-4656-AE23-DAD41288BD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FF16761-4D50-4C18-BB74-CFE1B6FFC9BC} = {A59CE489-DA42-4F3E-83BB-AD170AA741E2}
+		{36200C29-BDD7-4DE7-86B1-F55F674011A9} = {A59CE489-DA42-4F3E-83BB-AD170AA741E2}
+		{C8AAC730-97A8-4656-AE23-DAD41288BD48} = {8B724CE5-B7A9-4323-8965-22BB3440939E}
+		{0D4FB6B1-462C-4807-AF1F-55DC9A1D6F9F} = {8B724CE5-B7A9-4323-8965-22BB3440939E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {026111BA-9321-4AEC-B34C-FA12E3E32A61}
+	EndGlobalSection
+EndGlobal
